@@ -931,12 +931,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oscReceiver: {fileID: 887015320}
+  oscTransmitter: {fileID: 887015319}
   gameManager: {fileID: 417150622}
   playerPaddle: {fileID: 1535292066}
-  bouncySurface: {fileID: 0}
+  bouncySurface: {fileID: 1439415309}
   potInMin: 0
   potInMax: 1023
-  potOutMin: 0
+  potOutMin: 4
   potOutMax: -4
 --- !u!114 &887015319
 MonoBehaviour:
@@ -960,7 +961,7 @@ MonoBehaviour:
   _localHost: 192.168.157.4
   _localPort: 7000
   _remoteHost: 127.0.0.1
-  _remotePort: 8000
+  _remotePort: 8001
   _useBundle: 0
 --- !u!114 &887015320
 MonoBehaviour:
